@@ -1,10 +1,23 @@
-<h1>Welcome to Word Counting App</h1>
-  <form action="/word_count">
+<h1>Welcome to Word Counting App</h1> <br><br>
+ <div> <h3> Mode 1 : Counting how many times the word occurs in a sentence as an independent word. <h3>
+    <form action="/word_count">
+      <div class="form-group">
+         <label for="word_input">Please input a word and a sentence to search the word?
+          </label>
+         <input id="word_input" name="word_input" placeholder="Type the Word" class="form-control" type="String">
+         <input id="sentence_input" name="sentence_input" placeholder="Type the Sentence" class="form-control" type="String">
+      </div>
+      <button type="submit" class="btn-success">Submit</button>
+    </form>
+  </div> <br><br><br>
+
+<div> <h3> Mode 2 : Counting how many times the word occurs in a sentence as an independent word aswell as within a word. <h3>
+  <form action="/word_count1">
     <div class="form-group">
-       <label for="word_input">Please input a word and a sentence to search the word?
+       <label for="word_input1">Please input a word and a sentence to search the word?
         </label>
-       <input id="word_input" name="word_input" placeholder="Type the Word" class="form-control" type="String">
-       <input id="sentence_input" name="sentence_input" placeholder="Type the Sentence" class="form-control" type="String">
+       <input id="word_input1" name="word_input1" placeholder="Type the Word" class="form-control" type="String">
+       <input id="sentence_input1" name="sentence_input1" placeholder="Type the Sentence" class="form-control" type="String">
     </div>
-    <button type="submit" class="btn-success">Send</button>
+    <button type="submit" class="btn-success">Submit</button>
   </form>
