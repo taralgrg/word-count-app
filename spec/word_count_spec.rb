@@ -7,5 +7,4 @@
       the word occurs in a sentence input") do
         expect("cat".word_count("cat is the cat of the cat")).to(eq(3))
       end
-
     end
