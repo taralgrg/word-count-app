@@ -1,8 +1,6 @@
-.results {
-  background-image: "http://wowslider.com/sliders/demo-94/data1/images/photo1428452788387375d846a8ab4.jpg"
-}
 
 body {
+    background-image: url("http://wallpaperpulse.com/img/3256687.jpg");
     background-color: lightblue;
     font-family: monospace;
 }
